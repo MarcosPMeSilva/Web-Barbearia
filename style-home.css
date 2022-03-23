@@ -1,0 +1,114 @@
+body {
+    
+}
+
+header {
+    background: #BBBBBB;
+    padding: 20px;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top:110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.sobre-bar {
+    text-align: center;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    margin: 20px;
+    background: #E4E4DF;
+}
+
+.titulo-p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.texto-p {
+
+    margin:10px 0;
+}
+
+.sobre-bar:hover {
+    border-color: #c78c19;
+}
+
+em strong {
+    font-weight: bold;
+}
+
+.sobre-bar:hover .titulo-p{
+    font-size: 25px;
+    
+}
+
+.sobre-bar:hover strong {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.beneficios {
+    display: inline-block;
+    text-align: center;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    margin: 20px;
+    width: 15%;
+    background: #E4E4DF;
+} 
+
+ul li {
+    margin: 10px 10px;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.beneficios:hover {
+    border-color: #c78c19;
+}
+
+.beneficios:hover h1 {
+    font-size: 25px;
+}
+
+footer{
+    text-align: center;
+    background: url(beneficios.jpg);
+    padding: 40px;
+}
+
+.copyright {
+    color: white;
+    margin: 10px 0;
+}
